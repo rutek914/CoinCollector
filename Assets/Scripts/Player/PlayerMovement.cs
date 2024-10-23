@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private float moveSpeed = 5f;
-    [SerializeField] private float rotationSpeed = 700f;
+    [SerializeField] private float moveSpeed = 30f;
+    [SerializeField] private float rotationSpeed = 10000f;
 
     private Rigidbody rb;
 
